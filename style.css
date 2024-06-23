@@ -1,0 +1,61 @@
+body{
+    background:linear-gradient(to top right,rgb(216, 47, 154),rgb(54, 174, 222),rgb(69, 239, 117));
+}
+.container{
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 33%;
+  margin-right: 33%;
+  border-radius: 10px;
+    
+}
+.heading{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+h4{
+   font-size: 20px; 
+
+}
+.all{   
+width:90%;
+border: none;
+border-bottom: 1px solid black;
+}
+.btn button{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 0.7rem;
+    margin-left:30%;
+    margin-right: 30%;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+background: linear-gradient(to left,rgba(39, 238, 39, 0.767),rgb(74, 184, 227),rgb(219, 77, 200));
+color: white
+
+}
+.btn button:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+form{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.choose{
+    width: 60%;
+    height: 30px;
+}
+@media screen and (max-width: 768px){
+    .container{
+        margin-left: 20%;
+        margin-right: 20%;   
+      }
+  }
+  

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">Test Form </div>
+        <form>
+  <h4> Full Name</h4>
+    <input type="text"placeholder="enter your Full name"required class="all" >
+    <h4>Email</h4>
+    <input type="email"placeholder="enter email"required class="all">
+    <h4> Phone Number</h4>
+    <input type="tel"pattern="\d{10}"maxlength="13"id="phone"name="phone" placeholder=" Enter your phone number"required class="all">
+    <h4>Age</h4>
+<label class="age"><input type="radio"value=">18"name="age">>18</label><br>
+<label class="age"><input type="radio"value="18-35"name="age">18-35</label><br>
+<label class="age"><input type="radio"value="35+"name="age">35+</label>
+<h4>Education</h4>
+
+<label class="check"> <input type="checkbox">High school</label><br>
+<label class="check"><input type="checkbox">Some college</label><br>
+<label class="check"><input type="checkbox">Associate's Degree</label><br>
+<label class="check"><input type="checkbox">Bachelor's Degree</label>
+<label><h4>Course:</h4></label>
+<h4>Appointment Date</h4>
+    <input type="date"class="all">
+   <h4>Reason for Appointment</h4> 
+    <select class="choose">
+        <option value="courses"selected>Select your reason</option>
+        <option value="high scoring">High scoring</option>
+        <option value="rivision">Rivision</option>
+        <option value="better marks">Better marks</option>
+        <option value="confident">confident</option>
+    </select>
+<h4>Message</h4>
+    <textarea id="message" placeholder="enter a message"class="all"></textarea><br>
+<div class="btn"><button value="submit">Submit</button></div>
+
+        </form>
+
+    </div>
+</body>
+</html>
